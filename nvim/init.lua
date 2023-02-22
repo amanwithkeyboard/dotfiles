@@ -50,6 +50,10 @@ require("packer").startup(function(use)
   use "nvim-treesitter/nvim-treesitter"
   use "windwp/nvim-autopairs"
   use "neovim/nvim-lspconfig"
+	use "hrsh7th/nvim-cmp"
+	use "hrsh7th/cmp-buffer"
+	use "hrsh7th/cmp-path"
+  use "hrsh7th/cmp-nvim-lsp"
 end)
 
 vim.cmd("colorscheme rose-pine")

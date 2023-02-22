@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/dev/.local/share/nvim/site/pack/packer/start/neovim",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/dev/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/dev/.local/share/nvim/site/pack/packer/start/nvim-treesitter",

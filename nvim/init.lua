@@ -48,6 +48,7 @@ require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
   use "rose-pine/neovim"
   use "nvim-treesitter/nvim-treesitter"
+  use "windwp/nvim-autopairs"
 end)
 
 vim.cmd("colorscheme rose-pine")
@@ -67,3 +68,5 @@ require'nvim-treesitter.configs'.setup {
     enable = true,
   },
 }
+
+require("nvim-autopairs").setup{}

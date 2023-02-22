@@ -46,4 +46,7 @@ end
 
 require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
+  use "rose-pine/neovim"
 end)
+
+vim.cmd("colorscheme rose-pine")

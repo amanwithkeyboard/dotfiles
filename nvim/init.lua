@@ -49,6 +49,7 @@ require("packer").startup(function(use)
   use "rose-pine/neovim"
   use "nvim-treesitter/nvim-treesitter"
   use "windwp/nvim-autopairs"
+  use "neovim/nvim-lspconfig"
 end)
 
 vim.cmd("colorscheme rose-pine")
